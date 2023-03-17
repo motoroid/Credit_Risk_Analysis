@@ -2,8 +2,12 @@
 ## Introduction
 #### Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, 6 different Maching Learning models will be used to predict credit risk. Based on these the performance of these models will be evaluated to make a recommendation on whether they should be used to predict credit risk.
 ## Results
-#### The 6 models will include 4 Algorithms: Naive Random oversampling, SMOTE oversampling, Cluster Centroids undersampling and SMOTEENN over & under sampling along with 2 ensemble classifiers:  Balanced Random Forest and Easy Ensemble 
-####  The results for each are pictured below.
+### The 6 models will include 4 Algorithms: Naive Random oversampling, SMOTE oversampling, Cluster Centroids undersampling and SMOTEENN over & under sampling along with 2 ensemble classifiers:  Balanced Random Forest and Easy Ensemble 
+###  The results for each are pictured below, with an analysis based on the confusion matrices, accuracy score, and imblanced classification report.  
+####  Although it is not always the most appropriate or meaningful metric, the accuracy score can be included in the many ways to determine if a model is valid.  The other 3 are precision, sensitivity, and the balance of both in the F1 score.  A test high in sensitivity may do a good job finding the target but will risk a number of false positives.  On the otherhand, for tests high in precision, there is high confidence that the predicted positives are indeed positive, but at the risk of not predicting all true positives.  Finally the higher the F1 score the better balance between sensitivity and precision which would indicate a better model.  
+#### General Confusion Matrix
+![Confusion Matrix](https://user-images.githubusercontent.com/115171651/226054230-40e48bce-8949-437c-b7f9-694d10199daa.png)
+
 #### Naive Random Oversampling
 ![Naive_ROS](https://user-images.githubusercontent.com/115171651/226050659-d62844f9-9ecd-40c2-80d7-fa6dc0ba022c.png)
 #### SMOTE Oversampling
@@ -17,3 +21,4 @@
 #### Easy Ensemble
 ![Easy_ensemble_adaboost](https://user-images.githubusercontent.com/115171651/226050829-e57a7de9-1bbd-474f-8c23-30fd9e775544.png)
 ## Summary & Recommendation
+
